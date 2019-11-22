@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     
+    <link rel="stylesheet" href="index.css">
+
+	<style type="text/css">
+
+
+/*gallery*/
+img{ max-width:100%;}
+.gallery_box{}
+
+.gallery_box li{width:348px;height:280px; display:inline-block; float: left; text-align: center; overflow: hidden;    position: relative;margin-right: 10px; margin-bottom: 10px;}
+.gallery_box{display: flow-root;}
+
+.gallery_box li:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.gallery_box li img{-webkit-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;}
+.gallery_box li:nth-child(even) {}
+.gallery_box li:nth-child(odd) {}
+.gallery_box li:nth-child(odd) .box_data{ /*background:rgba(0,0,0,0.17) */}
+.gallery_box li:nth-child(even) .box_data{ /*background:rgba(0,44,255,0.27)*/ }
+.gallery_box .box_data{ position:absolute; top: 0; left: 0; right:0; bottom:0; color:#fff;}
+.gallery_box .box_data span{ position:absolute; top: 50%; transform: translateY(-50%); left:0 ; right:0; font-size:30px; font-family: Ariel}
+.gallery_box li:hover .box_data{background:rgba(16, 43, 98, 0.9); opacity: 0.6}
+
+
+	</style>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="bootsnipp.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+
+</head>
+<body>
+ <!-- ======================================Navigation Bar================================================= -->
+       
+      <nav id="nav" class="navbar navbar-expand-lg navStyle" style="background-color: #0B2471;">
+            <a class="brand-navbar" href="#"><img src="img/compassion3.jpg" alt="Responsive image" height="60px" width="180px"></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
+                <span><i class="fas fa-align-right iconStyle"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul id="list" class="navbar-nav ml-auto navList">
+                    <li class="nav-item active"><a href="index.html" class="nav-link"><i class="fas fa-home"></i>HOME<span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item">
+                        <a href="index.html #services" class="nav-link"><i class="fas fa-cogs"></i>Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Activities.html" class="nav-link"><i class="fas fa-briefcase"></i>Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contacts.html" class="nav-link"><i class="fas fa-phone"></i>Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html #about" class="nav-link"><i class="fas fa-users"></i>About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="index.html #faq" class="nav-link" ><i class="fas fa-envelope"></i>Faq</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link"><i class="fas fa-picture-o"></i>Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+<ul class="gallery_box">
+	<li>
+		<a href="#0"><img src="img/compassion8.jpg">
+		<div class="box_data">
+			<span>Our team as at 2009</span>
+		</div></a>
+	</li>
+		<li>
+		<a href="#0"><img src="img/compassion-sports.jpg">
+		<div class="box_data">
+			<span>Sports team</span>
+		</div></a>
+	</li>
+		<li>
+		<a href="#0"><img src="img/compassion9.jpg">
+		<div class="box_data">
+			<span>Gift day</span>
+		</div></a>
+	</li>
+			<li>
+		<a href="#0"><img src="img/compassion10ed.jpg">
+		<div class="box_data">
+			<span>Birthday celebration</span>
+		</div></a>
+	</li>
+			<li style="  ">
+		<a href="#0"><img src="img/compassion11.jpg">
+		<div class="box_data">
+			<span>Clean up exercise</span>
+		</div></a>
+	</li>
+			<li>
+		<a href="#0"><img src="img/cdc13_edited.jpg">
+		<div class="box_data">
+			<span>Tour to UCC</span>
+		</div></a>
+	</li>	
+    <li style="  ">
+        <a href="#0"><img src="img/compassion6.jpg">
+        <div class="box_data">
+            <span>Birthday Celebration</span>
+        </div></a>
+    </li>
+            <li>
+        <a href="#0"><img src="img/compassion7.jpg">
+        <div class="box_data">
+            <span>Singing & Entertainment</span>
+        </div></a>
+    </li>   
+
+
+<!-- list 2 -->
+
+
+    <li>
+        <a href="#0"><img src="img/compassion8.jpg">
+        <div class="box_data">
+            <span>Our team as at 2009</span>
+        </div></a>
+    </li>
+        <li>
+        <a href="#0"><img src="img/compassion-sports.jpg">
+        <div class="box_data">
+            <span>Sports team</span>
+        </div></a>
+    </li>
+        <li>
+        <a href="#0"><img src="img/compassion9.jpg">
+        <div class="box_data">
+            <span>Gift day</span>
+        </div></a>
+    </li>
+            <li>
+        <a href="#0"><img src="img/compassion10ed.jpg">
+        <div class="box_data">
+            <span>Birthday celebration</span>
+        </div></a>
+    </li>
+            <li style=" ">
+        <a href="#0"><img src="img/compassionbuild.jpg">
+        <div class="box_data">
+            <span>Leather Work Center</span>
+        </div></a>
+    </li>
+            <li>
+        <a href="#0"><img src="img/child.jpg">
+        <div class="box_data">
+            <span>Playing</span>
+        </div></a>
+    </li>   
+    <li style="  ">
+        <a href="#0"><img src="img/compassion12.jpg">
+        <div class="box_data">
+            <span>Graduation</span>
+        </div></a>
+    </li>
+            <li>
+        <a href="#0"><img src="img/compassion4.jpg">
+        <div class="box_data">
+            <span>Learning</span>
+        </div></a>
+    </li>   
+</ul>
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" /> 
+ <footer  class="dk-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <div class="dk-footer-box-info">
+                        <a href="forms.php" class="footer-logo">
+                            <img src="img/compassion5.jpg" alt="footer_logo" class="img-fluid">
+                        </a>
+                        <p class="footer-info-text">Give a child hope for the future and for all eternity. Sponsor a child today!.
+                        </p>
+                        <div class="footer-social-link">
+                            <h3>Follow us</h3>
+                            <ul>
+                                <li>
+                                    <a href="www.facebook.com">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="www.twitter.com">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="www.google.com">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="www.instagram.com">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Social link -->
+                    </div>
+                    <!-- End Footer info -->
+                    <div class="footer-awarad">
+                       <!--  <img src="img/leather.jpg" alt=""> -->
+                        <p>!!Compassion!!</p>
+                    </div>
+                </div>
+                <!-- End Col -->
+                <div class="col-md-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-us"><div class="contact-icon">
+                                   
+                                <a href="https://www.google.com/maps/place/Gomoa+Dago/@5.7009022,-1.1557714,9.65z/data=!4m5!3m4!1s0xfde3b2a90b2cad7:0x8dfbb9bf41f03b8a!8m2!3d5.2278023!4d-0.7919598"> <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                </div>
+                                <!-- End contact Icon -->
+                                <div class="contact-info" style="text-align: center;">
+                                    <h3>Gomoa Dago</h3>
+                                    <p>locate us</p>
+                                </div>
+                                <!-- End Contact Info -->
+                            </div></a>
+                            <!-- End Contact Us -->
+                        </div>
+                        <!-- End Col -->
+                        <div class="col-md-6">
+                            <div class="contact-us contact-us-last">
+                                <div class="contact-icon">
+                                    <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                                </div>
+                                <!-- End contact Icon -->
+                                <div class="contact-info" style="text-align: center;">
+                                    <h3>(+233)553414573</h3>
+                                    <p>Give us a call</p>
+                                </div>
+                                <!-- End Contact Info -->
+                            </div>
+                            <!-- End Contact Us -->
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Contact Row -->
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6">
+                            <div class="footer-widget footer-left-widget">
+                                <div class="section-heading">
+                                    <h3>Useful Links</h3>
+                                    <span class="animate-border border-black"></span>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="index.html #about">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html #services">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="contacts.html">Our Team</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="contacts.html">Contact us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Gallery</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Testimonials</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html #faq">Faq</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Footer Widget -->
+                        </div>
+                        <!-- End col -->
+                        <div class="col-md-12 col-lg-6">
+                            <div class="footer-widget">
+                                <div class="section-heading">
+                                    <h3>Subscribe</h3>
+                                    <span class="animate-border border-black"></span>
+                                </div>
+                                <p style="color:#fff;"><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+                                Subscribe to our page .</p>
+                                <form action="#">
+                                    <div class="form-row">
+                                        <div class="col dk-footer-form">
+                                            <input type="email" class="form-control" placeholder="Email Address">
+                                            <button type="submit">
+                                                <i class="fa fa-send"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <!-- End form -->
+                            </div>
+                            <!-- End footer widget -->
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+                </div>
+                <!-- End Col -->
+            </div>
+            <!-- End Widget Row -->
+        </div>
+        <!-- End Contact Container -->
+
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span>Copyright © 2019, All Right Reserved DagoCDC</span>
+                    </div>
+                    <!-- End Col -->
+                    <div class="col-md-6">
+                        <div class="copyright-menu">
+                            <ul>
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Terms</a>
+                                </li>
+                                <li>
+                                    <a href="#">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="contacts.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                </div>
+                <!-- End Row -->
+            </div>
+            <!-- End Copyright Container -->
+        </div>
+        <!-- End Copyright -->
+        <!-- Back to top -->
+        <div id="back-to-top" class="back-to-top">
+          <a href="#" style="color:#fff;">  <button class="btn btn-dark" title="Back to Top" style="display: block;">
+                <i class="fa fa-angle-up"></i>
+                
+            </button></a>
+        </div>
+        <!-- End Back to top -->
+</footer>
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
